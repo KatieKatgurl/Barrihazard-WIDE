@@ -1,0 +1,1234 @@
+/*Barricade's Lyrania Theme --Barrihazard WIDE*/
+/*to be used OVER the BLACK THEME and MUST be in widescreen mode*/
+/*go to Dropdown Menu > Settings > Display > Use Widescreen Mode > Yes > Refresh > Profit!*/
+@namespace url(http://www.w3.org/1999/xhtml);
+/*TRUE widescreen Lyr now :D */
+#holder {
+    width: 99.9% !important;
+    background-image: url("https://2.bp.blogspot.com/-pceue-6Xqfo/UN_fiTJ5YlI/AAAAAAAAMBM/P3P9rWFGEZo/s1600/the%20gothic%20wallpaper%201.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: .9px;
+}
+
+/*mailbox shit, incomplete atm*/
+html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div div#mailtable_wrapper.dataTables_wrapper.no-footer table#mailtable.dataTable.no-footer {
+    background-color: #460000;
+}
+
+/*aboss dead screen*/
+html body div#holder div#middlesection.lrow div#main div#content div#contentBoss div div {
+    text-align: center;
+    margin-left: 225px;
+}
+
+/*Potion Timers*/
+html body div#holder div#middlesection.lrow div#main div#content div span {
+    color: #F00;
+    /*text-shadow: 0 0 1px #F00, 0 0 1px #F00, 0 0 1px #F00 !important;*/
+    font-style: oblique;
+    font-weight: bold;
+}
+/*potion loadout during bosses*/
+select#potion {
+    width: 130px;
+    margin-right: 5px;
+}
+
+/*construction xp bar*/
+html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div#housing div div span div {
+    max-width: 210px !important;
+}
+
+/* Jade Temple */
+span.skillinfo {
+    text-align: right;
+    color: white !important;
+    font-style: normal;
+    display: inline-block;
+    width: 25%;
+}
+
+span.skilltrain {
+    margin-right: 10%;
+    color: white !important;
+    display: inline-block;
+    text-align: right;
+}
+
+div.jadeskill {
+    margin-bottom: 3px;
+}
+
+div#jadegodstatue {
+    border-top: none;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 60px;
+    display: inline;
+}
+
+div#templesubmit {
+    border-top: none;
+}
+
+div.templeaction {
+    text-align: center;
+    padding-top: 0px;
+}
+
+.overpriced {
+    text-decoration: line-through red;
+}
+/*inventory*/
+div#inventdiv1 {
+    font-size: 10pt;
+}
+/*Crafting*/
+#jadereq.crafting-fake-jade-input {
+    border: 3px;
+    border-style: inset;
+    border-radius: 12px;
+    border-color: #FFF;
+    box-shadow: 0px 0px 1px #FFF, 0 0 1px #FFF, 0 0 1px #FFF;
+    background-color: black;
+    color: #EAFF00;
+    text-shadow: 0px 0px 2px #FF6200, 0 0 2px #FF4100, 0 0 2px #F00;
+    font-size: 11pt;
+}
+/* Guild Map Completion Chat Message*/
+html body div#holder div.lrow div#chat div#chatwindow div.chatline span table tbody {
+    color: #0CE300 !important;
+    text-shadow: 0px 0px 3px #90F, 0 0 2px #3399ff, 0 0 3px #D700FF !important;
+}
+/*scratch card border*/
+div#cardcontainer {
+    background-image: url("https://i.imgur.com/iP9P41t.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 4px;
+    border-style: double;
+    border-color: #FFF;
+    box-shadow: 0px 0px 2px #f00, 0px 0px 2px #f00, 0px 0px 2px #f00 inset !important;
+}
+
+/*players online page*/
+/*Staff Online*/
+html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div#onlinelistcontainer div#onlineliststaff h5 {
+    font-size: 20px;
+    color: #EEE;
+    text-shadow: 0 0 3px #F00, 0 0 3px #F00, 0 0 3px #f00;
+    font-weight: normal;
+    border-radius: 12px;
+    border: white 5px;
+    border-style: double;
+    border-color: #fff;
+    box-shadow: 0px 0px 3px #F00, 0px 0px 3px #F00, 0px 0px 3px #f00 inset !important;
+    width: 75px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+/*Guild members online*/
+html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div#onlinelistcontainer div#onlinelistguild h5 {
+    font-size: 20px;
+    color: #0CE300 !important;
+    text-shadow: 0px 0px 3px #90F, 0 0 2px #3399ff, 0 0 3px #D700FF !important;
+    font-weight: normal;
+    border-radius: 12px;
+    border: white 5px;
+    border-style: double;
+    border-color: #0CE300 !important;
+    box-shadow: 0px 0px 3px #90F, 0 0 2px #3399ff, 0 0 3px #D700FF inset !important;
+    width: 75px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+/*Regular players online*/
+html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div#onlinelistcontainer div#onlinelistother h5 {
+    font-size: 20px;
+    color: #3399ff !important;
+    text-shadow: 0 0 3px #ff00ff !important;
+    font-weight: normal;
+    border-radius: 12px;
+    border: white 5px;
+    border-style: double;
+    border-color: #3399ff !important;
+    box-shadow: 0 0 3px #ff00ff inset !important;
+    width: 75px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+/*autos remaining*/
+div.lrow div.flex-content div.lrow div.strong.text-center.flex {
+    padding-left: 190px;
+    color: #EAFF00;
+    text-shadow: 0px 0px 4px #FF6200, 0 0 4px #FF4100, 0 0 4px #F00;
+    font-style: oblique;
+    font-weight: normal;
+}
+
+/*dungeon autos remaining*/
+html body div#holder div#middlesection.lrow div#main div#content div.lrow div.flex-content div.strong.text-center {
+    color: #EAFF00;
+    text-shadow: 0px 0px 3px #FF6200, 0 0 3px #FF4100, 0 0 3px #F00;
+    font-style: oblique;
+    font-weight: normal;
+}
+
+/*Action Timer*/
+#timer {
+    font-family: "lcd";
+    font-size: 14pt;
+    color: #f00 !important;
+    text-shadow: 1px 1px 2px black, 1px 1px 2px black, 1px 1px 2px black;
+    padding-top: 0px;
+    font-weight: normal !important;
+    text-decoration: none !important;
+}
+
+
+/*battle names/hp*/
+div.battleContainer.lrow.margin-bottom-10 {
+    color: #EAFF00;
+    text-shadow: 0px 0px 2px #FF6200, 0 0 2px #FF4100, 0 0 2px #F00;
+    font-weight: normal;
+}
+/*House Rooms*/
+html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div#housing div#roomlist {
+    margin-left: 25px;
+    margin-top: -10px;
+}
+/* Room item counts */
+html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div#housing div#roomlist div span {
+    color: #FFF;
+    text-shadow: 1px 1px 2px #F00, 1px 1px 2px #F00, 1px 1px 2px #F00;
+}
+/*profile shit*/
+html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div#profileinfo {
+    background-image: url("https://2.bp.blogspot.com/-pceue-6Xqfo/UN_fiTJ5YlI/AAAAAAAAMBM/P3P9rWFGEZo/s1600/the%20gothic%20wallpaper%201.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div#profileinfo div#profile_data,
+html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div#profileinfo div#profile_data div,
+html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div#profileinfo div#battle_data,
+html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div#profileinfo div#staff_data {
+    background-color: #00000000;
+}
+/*Rank on Profile*/
+html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div#profilepic h3 {
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 12pt;
+    margin-top: 5px;
+}
+/*Profile pic background*/
+html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div#profilepic {
+    background-image: url("https://i.imgur.com/iP9P41t.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/*profile pic selections*/
+img[src*="a0.jpg"] {
+    width: 0px;
+    padding-left: 180px;
+    padding-top: 0px;
+    background-image: url("https://screenshotscdn.firefoxusercontent.com/images/1645420c-90ab-4348-9ed0-e0f5ad54441c.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-size: 300%;
+    border: double 6px #570000;
+    box-shadow: 0px 0px 5px black, 0px 0px 5px black, 0px 0px 5px black;
+    border-radius: 12px;
+    border-width: 8px;
+    margin: 1.5%;
+    /*or cover*/
+}
+img[src*="a1.jpg"] {
+    width: 0px;
+    height: 210px;
+    padding-left: 180px;
+    padding-top: 35px;
+    background-image: url("https://www.thatshotstore.com.au/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/2/_/2_1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: double 6px #6F00FF;
+    box-shadow: 0px 0px 5px black, 0px 0px 5px black, 0px 0px 5px black;
+    border-radius: 12px;
+}
+/*text area on profile*/
+#bio {
+    width: 490px;
+    height: 100px;
+    text-align: center;
+    background: #00000000;
+    color: #EAFF00;
+    text-shadow: 0px 0px 2px #FF6200, 0 0 2px #FF4100, 0 0 2px #F00;
+    border: none;
+    position: relative;
+}
+
+#chat {
+    background-color: #00000025;
+    border: 3px;
+    border-style: inset;
+    border-color: #FFF;
+    box-shadow: 0px 0px 1px #FFF, 0 0 1px #FFF, 0 0 1px #FFF;
+    border-radius: 0px 0px 12px 12px;
+}
+
+
+body {
+    font-family: "Calibri";
+    background-color: black !important;
+    background: -webkit-linear-gradient(top, #000 0%, #000 50%, #000 100%);
+}
+
+#popuprescontainer {
+    border: 3px;
+    border-style: inset;
+    border-color: #FFF;
+    box-shadow: 0px 0px 1px #FFF, 0 0 2px #FFF, 0 0 1px #FFF;
+    border-radius: 12px 12px 12px 12px;
+    background-color: black;
+}
+
+/*Purchase/Spend fuckin tokens*/
+html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div div {
+    text-align: center !important;
+}
+/*purchase/spend tokens response*/
+html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popupresponse {
+    color: #EAFF00;
+    text-shadow: 0px 0px 3px #FF6200, 0 0 3px #FF4100, 0 0 3px #F00;
+    font-size: 14pt;
+}
+
+/*NEW ADDONS TO BE EDITED*/
+#side1 {
+    height: 381px;
+    width: 50%;
+    background-color: #00000025 !important;
+    border: 3px;
+    border-style: inset;
+    border-color: #FFF;
+    box-shadow: 0px 0px 1px #FFF, 0 0 1px #FFF, 0 0 1px #FFF;
+    border-radius: 0px 0px 0px 0px;
+    text-align: left;
+    color: #FFF;
+}
+#side2 {
+    height: 380px;
+    width: 50%;
+    background-color: #00000025 !important;
+    border: 3px;
+    border-style: inset;
+    border-color: #FFF;
+    box-shadow: 0px 0px 1px #FFF, 0 0 1px #FFF, 0 0 1px #FFF;
+    border-radius: 0px 0px 0px 0px;
+    text-align: right;
+    color: #FFF;
+}
+
+#main {
+    background-color: #00000050;
+    font-weight: normal;
+    padding-top: 1px;
+    height: 380px;
+    width: 50%;
+    border: 3px;
+    border-style: inset;
+    border-color: #FFF;
+    box-shadow: 0px 0px 1px #FFF, 0 0 1px #FFF, 0 0 1px #FFF;
+    color: #FFF;
+    font-size: 10pt !important;
+    text-align: center !important;
+}
+
+
+/* Header Bar All Information */
+#header {
+    height: auto;
+    position: relative !important;
+    text-align: left !important;
+    border-radius: 12px 12px 0px 0px;
+    border: 3px;
+    border-style: inset;
+    border-color: #FFF;
+    box-shadow: 0px 0px 1px #FFF, 0 0 1px #FFF, 0 0 1px #FFF;
+    color: #FFF;
+    background-color: #00000050;
+}
+
+
+select,
+button,
+input {
+    color: #EAFF00;
+    text-shadow: 0px 0px 3px #FF6200, 0 0 3px #FF4100, 0 0 3px #F00;
+    border-radius: 12px !important;
+    background-color: black;
+    font-size: 10pt !important;
+    border: 2px inset;
+    border-color: #FFF;
+    box-shadow: 0px 0px 1px #000, 0 0 2px #FFF, 0 0 7px #000;
+    text-align: center;
+}
+
+
+/*Select Pet Menu*/
+select#Pet {
+margin-right: 25% !important;
+}
+/* Dropdown Selector */
+#mainnav {
+    background-color: #000 !important;
+    box-shadow: 0px 0px 1px #000, 0 0 2px #FFF, 0 0 7px #000;
+    border-radius: 12px;
+    border-style: inset;
+    border-color: #FFF;
+    color: #EAFF00;
+    text-shadow: 0px 0px 2px #FF6200, 0 0 2px #FF4100, 0 0 2px #F00;
+    text-align: center;
+    position: relative !important;
+    padding: 0px 0px 0px 0px !important;
+    left: 0px !important;
+    width: 150px !important;
+    height: 23px !important;
+    font-size: 10pt !important;
+    top: -15px !important;
+    cursor: pointer;
+}
+
+/* hover over items pop-up. stats, jewelry, etc...*/
+.glt-elm {
+    font-family: "Calibri";
+    background-image: url("https://i.imgur.com/iP9P41t.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 3px inset !important;
+    border-color: #FFF !important;
+    box-shadow: 0px 0px 2px #F00, 0px 0px 2px #F00, 0px 0px 2px #F00  inset !important;
+    text-align: center !important;
+    width: auto !important;
+}
+/* Top Bar: Gems, Money, etc... colors */
+/*Updates, Popup and Counter*/
+#updatecount {
+    font-size: 10pt  !important;
+    color: #fff !important;
+    text-shadow: 1px 1px 2px #000, 1px 1px 2px #000, 1px 1px 2px #000 !important;
+    font-weight: bold;
+}
+.panel {
+    border-radius: 12px;
+    border: silver 4px;
+    border-style: double;
+    border-color: #FFF !important;
+    box-shadow: 0px 0px 2px #F00, 0px 0px 2px #F00, 0px 0px 2px #F00  inset !important;
+}
+div.panel-body hr,
+div.panel-heading hr {
+     border-radius: 12px;
+    border: white 1px;
+    border-style: double;
+    border-color: #FFF !important;
+    box-shadow: 0px 0px 2px #F00, 0px 0px 2px #F00, 0px 0px 2px #F00  inset !important;
+}
+html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div div.panel div.panel-body {
+    background-image: url("https://i.imgur.com/iP9P41t.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: left !important;
+}
+html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div div.panel div.panel-heading{
+    background-color: #1c1c1c !important;
+    border-radius: 7px 7px 0px 0px !important;
+}
+/*-----------------------------------------------------------------------*/
+#onlinecount {
+    font-family: "lcd";
+    font-size: 12pt;
+    color: #0dff00 !important;
+    text-shadow: 0px 0px 3px #90F, 0 0 2px #3399ff, 0 0 3px #D700FF !important;
+    font-style: normal;
+}
+#goldli span[style*="color"] {
+    color: gold !important;
+}
+#eqgold span[style*="color"] {
+    color: #0000 !important;
+}
+#jadeli {
+    color: #00CC00 !important;
+}
+#emeraldsli {
+    color: #7F00FF !important;
+}
+#emeraldsli2 {
+    color: #3399FF !important;
+}
+#opalsli {
+    color: #7F00FF !important;
+}
+#opalsli2 {
+    Color: #3399FF !important;
+}
+#rubiesli {
+    color: #7F00FF !important;
+}
+#rubiesli2 {
+    Color: #3399FF !important;
+}
+#sapphiresli {
+    color: #7F00FF !important;
+}
+#sapphiresli2 {
+    Color: #3399FF !important;
+}
+#diamondsli {
+    color: #7F00FF !important;
+}
+#diamondsli2 {
+    color: #3399FF !important;
+}
+#expli {
+    color: #FF8000 !important;
+}
+#glvlli {
+    color: #00CC00 !important;
+}
+#glvlpercent {
+    color: #FF00FF !important;
+}
+#lvlli {
+    color: cyan !important;
+}
+#tokenli {
+    color: #F5F5F5 !important;
+}
+#gnameli {
+    color: #00CC00 !important;
+}
+#healthli {
+    color: #CC0000 !important;
+}
+#attackli {
+    color: #CC0000 !important;
+}
+#defenceli {
+    color: #CC0000 !important;
+}
+#Accuracyli {
+    color: #CC6600 !important;
+}
+#evasionli {
+    color: #CC6600 !important;
+}
+#petli {
+    color: #3399ff !important;
+    text-shadow: 0 0 1px #ff00ff !important;
+}
+#guildli {
+    color: #00FF00 !important;
+}
+#rankli {
+    color: #FF00FF !important;
+}
+.headerbox {
+    font-size: 12px;
+    font-family: "Calibri";
+}
+#header > div.lrow > div:nth-child(1) > a {
+    padding-left: 16px;
+}
+#lvlli {
+    padding-left: 20px;
+}
+#expli {
+    padding-left: 28px;
+}
+#guildli {
+    padding-left: 4px;
+}
+#petli {
+    padding-left: 0px;
+}
+#goldli {
+    padding-left: 10px;
+    text-align: right;
+}
+#eqgold {
+    padding-left: 17px;
+}
+#jadeli {
+    padding-left: 23px;
+}
+#tokenli {
+    padding-left: 11px;
+}
+#rankli {
+    padding-left: 20px;
+}
+#diamondsli2 {
+    padding-left: 11px;
+}
+#sapphiresli2 {
+    padding-left: 12px;
+}
+#rubiesli2 {
+    padding-left: 28px;
+}
+#emeraldsli2 {
+    padding-left: 16px;
+}
+#opalsli2 {
+    padding-left: 33px;
+}
+#Healthli {
+    padding-left: 20px;
+}
+#Attackli {
+    padding-left: 21px;
+}
+#Defenceli {
+    padding-left: 12px;
+}
+#Accuracyli {
+    padding-left: 8px;
+}
+#Evasionli {
+    padding-left: 15px;
+}
+
+
+
+/* Minor tweaks to colors etc */
+[style*="color:#222233;"],
+[style="color:#000000;"] {
+    color: #FFF !important;
+}
+
+
+/*changes your name in the global message to a more visible color */
+span[style*="color: #33CCFF"][href*="Barricade"] * {
+    color: #3399ff !important;
+    text-shadow: 0 0 1px #ff00ff !important;
+}
+span[style*="font-weight"] {
+    font-weight: normal !important;
+}
+
+
+/* Kill counter, questupdater */
+#opentickets {
+    display: inline;
+    font-size: 10pt !important;
+    text-align: left;
+}
+#unreadmail {
+    font-size: 10pt !important;
+    text-align: left;
+}
+#questtracker {
+    font-size: 10pt !important;
+    text-align: left;
+}
+#sidecounter {
+    text-align: left !important;
+}
+#killscount {
+    color: #EAFF00;
+    text-shadow: 0px 0px 1px #Ff6200, 0px 0px 1px #Ff4100, 0px 0px 1px #F00 !important;
+    font-size: 10pt !important;
+    text-align: left;
+}
+#questupdateid {
+    color: #EAFF00;
+    text-shadow: 0px 0px 1px #Ff6200, 0px 0px 1px #Ff4100, 0px 0px 1px #F00 !important;
+    font-size: 10pt !important;
+    text-align: left;
+}
+#questtracker {
+    font-size: 10pt;
+    text-align: left;
+}
+
+
+/* Quests */
+#questcount {
+    color: #3399ff !important;
+    text-shadow: 0px 0px 1px #ff00ff !important;
+    font-size: 10pt !important;
+    text-align: left;
+}
+html body div#holder div#middlesection.lrow div#side1 div#questtracker a span#questupdateid font {
+    color: red;
+    text-shadow: 0px 0px 3px #000, 0px 0px 2px #000, 0px 0px 3px #000 !important;
+    font-weight: bold;
+}
+
+
+/* PTicket */
+#ticketcount {
+    color: #0CE300 !important;
+    text-shadow: 0px 0px 3px #90F, 0px 0px 2px #3399ff, 0px 0px 3px #D700FF !important;
+    font-size: 10pt !important;
+    text-align: left;
+}
+
+
+/* Equipment Panel */
+#equip1,
+#equip2 {
+    color: #EAFF00;
+    text-shadow: 0px 0px 2px #FF6200, 0px 0px 2px #FF4100, 0px 0px  2px #F00;
+}
+#equip3,
+#equip4,
+#equip5,
+#equip6,
+#equip7,
+#equip8,
+#equip9 {
+    color: #EAFF00;
+    text-shadow: 0px 0px 2px #FF6200, 0px 0px 2px #FF4100, 0px 0px 2px #F00;
+}
+
+/*equipment names*/
+#equipment p.equipment {
+    text-align: center;
+    margin: 0;
+}
+#equipment {
+    text-align: center !important;
+    left: 20px !important;
+    font-size: 10pt !important;
+}
+#equipment > H3 {
+    text-align: center !important;
+    font-size: 12pt !important;
+}
+
+
+/* Equipment costs subscreen */
+#equipstuff {
+    position: relative !important;
+    margin: 0;
+    max-width: 100%;
+    top: 0px !important;
+    text-align: center;
+    font-size: 10pt !important;
+    color: #EAFF00;
+    text-shadow: 0px 0px 2px #FF6200, 0px 0px 2px #FF4100, 0px 0px 2px #F00;
+}
+/*equipment lines*/
+html body div#holder div#middlesection.lrow div#side2 div#equipment hr,
+html body div#holder div#middlesection.lrow div#side2 hr {
+    width: 60%;
+    border: 3px;
+    border-style: inset;
+    border-radius: 12px;
+    border-color: #FFF;
+    box-shadow: 0px 0px 1px #FFF, 0px 0px 1px #FFF, 0px 0px 1px #FFF;
+}
+
+/* Current TS Jobs: */
+#tstimer {
+    position: relative !important;
+    text-align: left !important;
+    font-size: 12pt !important;
+    padding-bottom: 35px;
+}
+
+
+/* Current TS Jobs: Timers */
+#tsjob1,
+#tsjob2,
+#tsjob3,
+#tsjob4 {
+    font-size: 10pt !important;
+    position: relative !important;
+}
+
+
+/* TS colors */
+#ts1,
+#ts2,
+#ts3,
+#ts4 {
+    color: #EAFF00;
+    text-shadow: 0px 0px 2px #FF6200, 0 0 2px #FF4100, 0 0 2px #F00;
+    font-size: 10pt !important;
+    text-align: left;
+}
+/*TS Timers 00:00*/
+html body div#holder div#middlesection.lrow div#side1 div#tstimer span#tsjob3 span#ts3 a {
+    color: #FFF !important;
+    text-shadow: 0px 0px 1px #F00, 0px 0px 1px #F00, 0px 0px 1px #F00 !important;
+}
+html body div#holder div#middlesection.lrow div#side1 div#tstimer span#tsjob1 span#ts1 a {
+    color: #FFF !important;
+    text-shadow: 0px 0px 1px #F00, 0px 0px 1px #F00, 0px 0px 1px #F00 !important;
+}
+html body div#holder div#middlesection.lrow div#side1 div#tstimer span#tsjob2 span#ts2 a {
+    color: #FFF !important;
+    text-shadow: 0px 0px 1px #F00, 0px 0px 1px #F00, 0px 0px 1px #F00 !important;
+}
+html body div#holder div#middlesection.lrow div#side1 div#tstimer span#tsjob4 span#ts4 a {
+    color: #FFF !important;
+    text-shadow: 0px 0px 1px #F00, 0px 0px 1px #F00, 0px 0px 1px #F00 !important;
+}
+
+/* House countdown (construction) */
+#side1[style="font-size:13px;margin-left:5px;"] {
+    font-size: 10pt !important;
+    position: relative !important;
+}
+
+
+/* House Timer Color */
+#housetimer {
+    font-size: 10pt !important;
+    color: #EAFF00;
+    text-shadow: 0px 0px 2px #FF6200, 0 0 2px #FF4100, 0 0 2px #F00;
+}
+
+/*00:00 time*/
+html body div#holder div#middlesection.lrow div#side1 span span#housetimer a b {
+    color: #E3E3E3;
+    text-shadow: 0px 0px 1px #F00, 0px 0px 1px #F00, 0px 0px 1px #F00;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+/* Current Guild TS Jobs: */
+#gtstimer {
+    position: relative !important;
+    font-size: 10pt !important;
+}
+
+
+
+/* Players names in chat */
+.chatname {
+    color: #f40 !important;
+}
+
+
+
+/* Admin chat text color */
+.admincolour {
+    color: #FF0000 !important;
+}
+
+/*chat buttons*/
+input#mainchatbutton,
+input#tradechatbutton,
+input#auctionchatbutton,
+input#globalschatbutton,
+input#areachatbutton,
+input#pubchatbutton,
+input#litechatbutton {
+    border: 3px #fff !important;
+    border-radius: 12px 12px 12px 12px;
+    border-style: ridge !important;
+    border-color: #fff !important;
+    box-shadow: 0px 0px 1px #000, 0 0 1px #000, 0 0 1px #000 inset !important;
+    height: 20px !important;
+    background-image: url("https://i.imgur.com/iP9P41t.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/* Chat */
+#chatwindow {
+    margin-top: .8%;
+    font-size: 10pt !important;
+    border: 3px;
+    border-style: inset;
+    border-color: #fff;
+    box-shadow: 0px 0px 1px #fff, 0px 0px 1px #fff, 0px 0px 1px #fff !important;
+    border-radius: 12px 12px 12px 12px;
+    background-color: #00000025 !important;
+    color: #FFF !important;
+    text-shadow: 1px 1px 2px black, 1px 1px 2px black, 1px 1px 2px black;
+}
+
+
+
+/* Chat Text Input Windows */
+#inputchat {
+    width: 900px !important;
+    position: relative !important;
+    font-size: 10pt !important;
+    text-indent: 4px !important;
+    border: 2px;
+    border-style: inset;
+    border-color: #FFF;
+    box-shadow: 0px 0px 1px #FFF, 0px 0px 1px #FFF, 0px 0px 1px #FFF;
+    border-radius: 0px 0px 12px 12px;
+    background-color: #00000050 !important;
+    color: #0CE300 !important;
+    text-shadow: 0px 0px 1px black, 0px 0px 3px #3399ff, 0px 0px 5px #f0f;
+    text-align: left;
+    font-weight: normal;
+}
+
+/*chat send button*/
+html body div#holder div.lrow div#chat input#chatbutton {
+    /*background-image: url("https://i.imgur.com/iP9P41t.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;*/
+    background: black !important;
+    color: #EAFF00;
+    text-shadow: 0px 0px 2px #FF6200, 0px 0px 2px #FF4100, 0px 0px 2px #F00;
+    border-color: #FFF;
+    box-shadow: 0px 0px 1px #000, 0px 0px 2px #FFF, 0px 0px 7px #000;
+    border-style: inset;
+    text-align: center;
+}
+
+/* Chat Channel Selector */
+#chatchannel {
+    border-style: inset;
+    background-color: #000 !important;
+    border-radius: 12px;
+    border-color: #FFF;
+    box-shadow: 0px 0px 1px #000, 0px 0px 2px #FFF, 0px 0px 7px #000;
+    color: #EAFF00;
+    text-shadow: 0px 0px 2px #FF6200, 0px 0px 2px #FF4100, 0px 0px 2px #F00;
+    text-align: center;
+    font-size: 10pt !important;
+}
+
+
+/*dungeon fight button*/
+html body div#holder div#middlesection.lrow div#main div#content div#rightinfo input#bb {
+    min-width: 135px;
+    max-width: 150px;
+}
+
+
+/*Profile Info*/
+#battle_data,
+#profile_data {
+    padding-top: 6px;
+    text-align: center !important;
+    font-size: 12pt !important;
+    color: #FFF !important;
+    border-radius: 12px;
+}
+
+/*Profile Info*/
+#show_info,
+#show_stats,
+#show_staff {
+    background-color: #1a1a1a !important;
+    text-align: center;
+    color: #EAFF00;
+    text-shadow: 0px 0px 2px #FF6200, 0px 0px 2px #FF4100, 0px 0px 2px #F00;
+    font-size: 12pt !important;
+    border-radius: 12px;
+    margin-left: 34%;
+    cursor: pointer;
+}
+
+[href="javascript:closepage();"] {
+    font-weight: normal;
+}
+[href="javascript:closepage();"]:hover {
+    color: #FFF !important;
+}
+
+
+
+/*bulk color text (fix colors when stylish gets updated)*/
+body {
+    background-color: #323232 !important;
+    color: white;
+    text-shadow: 1px 1px 2px black, 1px 1px 2px black, 1px 1px 2px black;
+    font-weight: normal !important;
+}
+a {
+    color: white;
+    text-shadow: 1px 1px 2px black, 1px 1px 2px black, 1px 1px 2px black;
+    text-decoration: none !important;
+    font-weight: normal !important;
+}
+a:hover {
+    color: #F00;
+    text-shadow: 0px 0px 1px black;
+}
+
+
+/* Mob Drop Banner Pop-up */
+#bannerholder {
+    top: 26px !important;
+    border: none !important;
+    color: #FFF;
+    text-shadow: 0px 0px 1px #F00, 0px 0px 1px #F00, 0px 0px 1px #F00;
+    padding: 0px !important;
+    border-radius: 12px !important;
+    background: black !important;
+    font-weight: normal;
+    height: 0px !important;
+    font-size: 12pt;
+}
+
+#bannerholder > span > a > font:hover {
+    border: solid 1px #ff00ff !important;
+    color: #ff00ff !important;
+}
+html body div#holder div#middlesection.lrow div#main div#bannerholder div a font {
+    display: none !important;
+}
+
+/* Mob Drop Banner Pop-up: Drop Text */
+#banner {
+    text-align: center !important;
+}
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* YES, a Giant clusterfuck of a mess right here, ignore it lol*/
+/* Dungeon completion table */
+/*Themed Table Results*/
+#banner>table {
+    color: #FFF;
+    text-shadow: 0 0 1px #F00, 0 0 1px #F00, 0 0 1px #F00;
+    text-align: center;
+    padding: 1px !important;
+    background-image: url("https://i.imgur.com/iP9P41t.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 2px inset !important;
+    border-color: #FFF !important;
+    box-shadow: 0px 0px 2px #F00, 0px 0px 2px #F00, 0px 0px 2px #F00  inset !important;
+    font-weight: normal;
+    font-size: 11pt;
+    margin-top: 280px !important;
+    margin-left: 15% !important;
+    min-width: 70% !important;
+    max-width: 70% !important;
+}
+#banner>table td {
+    width: auto !important;
+    border: 2px inset !important;
+    border-color: silver !important;
+    box-shadow: 0px 0px 2px #f00, 0px 0px 2px #f00, 0px 0px 2px #f00  inset !important;
+    margin-left: 25% !important;
+}
+/* -- End Dungeon layout -- */
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/* Dungeon completion table */
+/*Clear Background like regular Mob Drop Banner*/
+/*#banner>table {
+  position: relative !important;
+  border-spacing: 0px !important;
+  top: 0px !important;
+  height: 0px !important;
+  font-size: 10pt !important;
+  overflow: hidden !important;
+  white-space: nowrap !important;
+  text-overflow: ellipsis !important;
+  text-align: center !important;
+  padding-left: 130px;
+  min-width: 85% !important;
+}
+#banner>table td {
+  width: 50px !important;
+  padding: 0px !important;
+}*/
+/* -- End Dungeon layout -- */
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* Dungeon Rooms colored tiles*/
+div[style*="border-style:solid;border-width:1px;border-color:#FFFFFF"] img {
+    outline: white solid 10px;
+    -moz-outline-radius: 6px;
+    outline-offset: -8px;
+    opacity: 0.7 !important;
+    border-color: #fff !important;
+}
+div[style*="border-style:solid;border-width:1px;border-color:#FF0000"] img {
+    outline: red solid 10px;
+    -moz-outline-radius: 6px;
+    outline-offset: -8px;
+    opacity: 0.7 !important;
+    border-color: red !important;
+}
+div[style*="border-style:solid;border-width:1px;border-color:#00FF00"] img {
+    outline: green solid 10px;
+    -moz-outline-radius: 6px;
+    outline-offset: -8px;
+    opacity: 0.7 !important;
+    border-color: green !important;
+}
+div[style*="border-style:solid;border-width:1px;border-color:#0000FF"] img {
+    outline: blue solid 10px;
+    -moz-outline-radius: 6px;
+    outline-offset: -8px;
+    opacity: 0.7 !important;
+    border-color: blue !important;
+}
+div[style*="border-style:solid;border-width:1px;border-color:#FFFF00"] img {
+    outline: #FF0 solid 10px;
+    -moz-outline-radius: 6px;
+    outline-offset: -8px;
+    opacity: 0.7 !important;
+    border-color: #FF0 !important;
+}
+div[style*="border-style:solid;border-width:1px;border-color:#FF66CC"] img {
+    outline: #F6C solid 10px;
+    -moz-outline-radius: 6px;
+    outline-offset: -8px;
+    opacity: 0.7 !important;
+    border-color: #F6C !important;
+}
+div[style*="border-style:solid;border-width:1px;border-color:#660066"] img {
+    outline: #C0C solid 10px;
+    -moz-outline-radius: 6px;
+    outline-offset: -8px;
+    opacity: 0.7 !important;
+    border-color: #C0C !important;
+}
+
+#popupcontainer div {
+    background-color: #000;
+    border-radius: 12px;
+    text-align: center;
+    color: #fff;
+    resize: vertical !important;
+    font-size: 9pt;
+}
+#popuptopbar {
+    background-color: #323232;
+    border-radius: 12px 12px 0px 0px;
+    border-color: #fff;
+    box-shadow: 0px 0px 1px #FFF, 0 0 2px #FFF, 0 0 7px #FFF;
+}
+#popup {
+    padding-top: 25px;
+    background-color: #000;
+    font-size: 12px;
+}
+#popupnav {
+    text-align: center;
+    color: white;
+    margin-top: 1px;
+    padding-right: 25px;
+    width: 700px;
+}
+tbody {
+    color: white;
+}
+table#milestonestable {
+    border-collapse: collapse;
+}
+
+table#milestonestable tr {
+    border: none;
+}
+
+table#milestonestable td {
+    border: none;
+}
+
+table#milestonestable th {
+    border: none;
+}
+
+/*jade temple top text (hidden)*/
+html body div#holder div#middlesection.lrow div#main div#content div p {
+    display: none;
+}
+
+table#milestonestable {
+    border-collapse: collapse;
+    display: inline-block;
+    background-color: #00000075;
+    border-radius: 12px;
+    border: 4px;
+    border-style: double;
+    margin-left: 15px;
+}
+
+table#milestonestable tr {
+    border: none;
+    text-align: center;
+}
+
+table#milestonestable td {
+    border: none;
+    padding-right: 30px;
+}
+
+table#milestonestable th {
+    border: none;
+    padding-right: 30px;
+}
+/*Rankings Page*/
+a#ranking {
+    font-size: 12pt;
+    color:#f00;
+    text-decoration: none; 
+    border: 3px;
+    border-style: ridge;
+    border-color: #fff;
+    box-shadow: 0px 0px 1px #fff, 0 0 1px #fff, 0 0 1px #fff !important;
+    padding: 2px 2px; 
+    text-align: center; 
+    display: inline-block; 
+    margin-bottom: 2px;
+    background-color: gray;
+}
+
+a#ranking-selected {
+    color:#fff; 
+    text-shadow: 0px 0px 1px #f00, 0px 0px 1px #f00, 0px 0px 1px #F00;
+    text-decoration: none; 
+    border:3px;
+    border-style: inset;
+    border-color: #eee;
+    box-shadow: 0px 0px 3px #f00, 0px 0px 3px #f00, 0px 0px 3px #F00 inset !important;
+    padding: 2px 2px; 
+    text-align: center; 
+    display: inline-block; 
+    margin-bottom: 2px;
+    background-image: url("https://i.imgur.com/iP9P41t.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+a:hover#ranking {
+    color: #EAFF00;
+    text-shadow: 0px 0px 1px #FF6200, 0px 0px 1px #FF4100, 0px 0px 1px #F00;
+    border:3px;
+    border-style: inset;
+    border-color: #EAFF00;
+    box-shadow: 0px 0px 3px #FF6200, 0px 0px 3px #FF4100, 0px 0px 3px #F00 inset;
+}
+
+
+/*house rooms "Rooms"*/
+html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div#housing div#roomlist p {
+    text-align: center;
+    padding-right: 25px;
+}
